@@ -1,5 +1,5 @@
 import './App.css';
-import {  helloName } from './components/es';
+import {  Sum } from './components/es';
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-      {helloName('karim')}
+      {Sum(3, 3)}
       </header>
 
     </div>

@@ -1,9 +1,4 @@
 
-
-export const helloName= (name)=>{
-    return <h1>Hello, { name }</h1>
+export const Sum= (a, b)=>{
+    return <h2>Hello, {a + b}</h2>
 }
-  
-/* export function helloName(name){
-  return <h1>Hello, { name }</h1>
-} */
